@@ -1,0 +1,17 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+q_hutchslegacy,items,Quest - Hutch's Legacy,,,Hutch's Legacy,,,,,,,,,,,,,,
+q_hutchslegacyDesc,items,Quest,,,"What could go wrong, he said... What was that old fool even thinking?!\n\nYou and your old friend Hutch stole money from Duke and his guys were going after you.\nOld Hutch was sure that you lost them, but they still found you in that old barn.\n\nIn the chaos of the fight, you and old Hutch got separated. You barely made it out\nalive, but Duke's guys kept chasing you. You certainly weren't prepared for what was\ncoming and you stood no chance against the whole army of pissed guys armed to the teeth.\n\nSo here you are, beaten up and robbed. You better get moving before zombies get to you.\n\nYou're not sure if old Hutch is still alive, but the last time you saw him, he wanted\nyou to keep this note and read it in case something happened to him.\n\nMaybe now it's a good time to read it...",,,,,,,,,,,,,,
+
+HutchsKey,items,Item,,,Hutch's Key,,,,,,,,,,,,,,
+HutchsKeyDesc,items,Item,,,"A key of your old friend Hutch that opens his secret storage chest. Well, you risked your life for it, you may as well check out what's inside...",,,,,,,,,,,,,,
+
+HutchsLegacy,items,Item,,,Hutch's Secret Supplies,,,,,,,,,,,,,,
+HutchsLegacyDesc,items,Item,,,"Belongings of your old friend Hutch. Well, you risked your life for it, you may as well check out what's inside...",,,,,,,,,,,,,,
+
+HutchsLegacyInsecure,items,Item,,,Hutch's Secret Supplies,,,,,,,,,,,,,,
+
+HutchsRevolver,items,Gun,,,Hutch's Revolver,,,,,,,,,,,,,,
+HutchsRevolverDesc,items,Gun,,,"A revolver of your friend Hutch.\n\nIt's old and rusty, just like Hutch himself, but you feel like it will be useful for a while...",,,,,,,,,,,,,,
+
+quest_hutchslegacy,Quest,Quest Info,,,Hutch's Legacy,,,,,,,,,,,,,,
+quest_hutchslegacy_offer,Quest,Quest Info,,,"Hey, for a moment there, I thought we were in trouble...\n\nLook, I know Duke's guys are coming after us, but this old barn we just moved\nin should keep us safe for a while. What could go wrong? We have enough\nsupplies to help us survive another horde and when those damn bandits show\nup, we will take them out easily!\n\nIn case that something happens to me, I want you to follow these instructions\nto find my secret stash and use everything you find there to stay alive. Don't\ngo to face Dukes alone, get help from our friends.\n\nSincerely, your old friend Hutch de Ceassedy!",,,,,,,,,,,,,,

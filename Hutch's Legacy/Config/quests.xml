@@ -1,0 +1,49 @@
+<configs>
+	<append xpath="/quests">
+		<quest id="quest_hutchslegacy">
+			<property name="name_key" value="quest_hutchslegacy"/>
+			<property name="subtitle_key" value="quest_hutchslegacy"/>
+			<property name="description_key" value="quest_hutchslegacy_offer"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			<property name="repeatable" value="false"/>
+			<property name="category_key" value="quest"/>
+			<property name="offer_key" value="quest_hutchslegacy_offer"/>
+			<property name="difficulty" value="medium"/>
+			<property name="shareable" value="false"/>
+
+			<objective type="ClosestPOIGoto">
+				<property name="distance" value="10"/>
+				<property name="phase" value="1"/>
+			</objective>
+
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally"/>
+			</objective>
+
+			<action type="SpawnEnemy" id="vehicleBicycle" value="1" phase="2"/>
+
+			<objective type="FetchFromContainer">
+				<property name="phase" value="3"/>
+				<property name="quest_item_ID" value="1"/>
+				<property name="item_count" value="1"/>
+				<property name="default_container" value="cntFetchQuestSatchel"/>
+				<property name="nav_object" value="fetch_container"/>
+			</objective>
+
+			<objective type="POIStayWithin">
+				<property name="phase" value="3"/>
+				<property name="radius" value="25"/>
+			</objective>
+
+			<action type="SpawnEnemy" id="zombieArlene,zombieDarlene,zombieMarlene,zombieNurse,zombieBoe,zombieJoe,zombieMoe,zombieYo" value="6" phase="3"/>
+			<action type="SpawnEnemy" id="zombieBikerFeral" value="1" phase="3"/>
+			<action type="SpawnEnemy" id="animalBear" value="1" phase="3"/>
+
+			<reward type="Exp" value="5000"/>
+			<reward type="SkillPoints" value="14" chainreward="true"/>
+			<reward type="Item" id="HutchsLegacy" value="1"/>
+			<reward type="Item" id="HutchsKey" value="1"/>
+		</quest>
+	</append>
+</configs>

@@ -1,0 +1,26 @@
+<configs>
+	<insertBefore xpath="/lootcontainers/lootgroup[@name='groupQuestChallenge']">
+		<lootgroup name="HutchsLegacyLoot" count="all">
+			<item name="HutchsRevolver" mods="modGunReflexSight,modGunBarrelExtender" mod_chance="2" quality="1"/>
+			<item name="ammoBundle44MagnumBulletBall"/>
+			<item name="apparelArmyShirt"/>
+			<item name="apparelArmyPants"/>
+			<item name="armorLeatherHood"/>
+			<item name="armorLeatherChest"/>
+			<item name="armorLeatherGloves"/>
+			<item name="armorLeatherPants"/>
+			<item name="armorLeatherBoots"/>
+			<item name="apparelCoatLeatherDuster"/>
+			<item name="apparelAviatorGoggles"/>
+			<item name="apparelCigar"/>
+			<item name="bookEnforcerIntimidation"/>
+			<item name="oldCash" count="0,3000"/>
+			<item name="resourceRawDiamond" count="0,100"/>
+		</lootgroup>
+	</insertBefore>
+	<append xpath="/lootcontainers">
+		<lootcontainer id="144" count="1" size="6,3" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1.5">
+			<item group="HutchsLegacyLoot"/>
+		</lootcontainer>
+	</append>
+</configs>

@@ -1,0 +1,33 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="HutchsLegacy">
+			<property name="CustomIcon" value="questWhiteRiverSupplies"/>
+			<property name="Tags" value="HutchsLock"/> <!-- safes,door,hardenedSafe -->
+			<property name="MaxDamage" value="9999"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#Entities/LootContainers?loot_cratePrefab.prefab"/>
+			<property name="DisplayInfo" value="Name"/>
+			<property name="Material" value="Mwood_regular"/>
+			<drop event="Destroy" count="0"/>
+			<property name="DowngradeBlock" value="HutchsLegacyInsecure"/>
+			<property name="DescriptionKey" value="HutchsLegacyDesc"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+		<block name="HutchsLegacyInsecure">
+			<property name="CustomIcon" value="cntFetchQuestSatchel"/>
+			<property name="CustomIconTint" value="227,164,130"/>
+			<property name="DescriptionKey" value="HutchsLegacyDesc"/>
+			<property name="Class" value="Loot"/>
+			<property name="Material" value="MCardboardLoot"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="#Entities/LootContainers?loot_satchelPrefab.prefab"/>
+			<property name="AllowAllRotations" value="true"/>
+			<property name="LootList" value="144"/>
+			<property class="RepairItems"> <property name="resourceLeather" value="1"/> </property>
+			<drop event="Destroy" name="resourceLeather" count="2,8"/>
+			<property name="FilterTags" value="floot"/>
+		</block>
+	</append>
+</configs>

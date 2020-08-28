@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <ModInfo>
+    <Name value="Hutch's Legacy" />
+    <Description value="What could go wrong, he said... That old fool!" />
+    <Author value="mr.devolver" />
+    <Version value="1.0" />
+    <Website value="" />
+  </ModInfo>
+  <DMT>
+    <dependencies />
+    <conflicts />
+  </DMT>
+</xml>

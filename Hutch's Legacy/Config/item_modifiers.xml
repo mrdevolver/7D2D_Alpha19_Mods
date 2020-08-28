@@ -1,0 +1,10 @@
+<configs>
+	<!-- Fix for modGunReflexSight installed on HutchsRevolver -->
+	<insertAfter xpath="/item_modifiers/item_modifier[@name='modGunReflexSight']/item_property_overrides[@name='gunHandgunT2Magnum44']">
+		<item_property_overrides name="HutchsRevolver">
+			<property name="ScopeOffset" value="0,.11,.12"/>
+			<property name="ScopeScale" value=".5,.5,.5"/>
+			<property name="ScopeCameraOffset" value="0,-.04,.15"/>
+		</item_property_overrides>
+	</insertAfter>
+</configs>
